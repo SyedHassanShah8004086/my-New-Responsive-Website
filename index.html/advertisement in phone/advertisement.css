@@ -1,0 +1,112 @@
+@charset "utf-8";
+body{
+    background-color:#5555;
+}
+.box{
+    width: 600px;
+    height: 250px;
+    border: 1px solid #ccc;
+    margin: 50px auto;
+    box-shadow: 0px 0px 7px #ccc;
+    padding: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    top: 0;
+    left: -200px;
+    background-color:#5555;
+}
+.pic{
+    height: 100%;
+    float: left;
+    position: relative;
+    animation: pic 5s infinite;
+}
+@keyframes pic{
+    0%{top: 0;left: -200px;
+        }
+    20%{
+        top: 0;left: 0;
+    }
+    100%{
+        top: 0;left: 0;
+    }
+}
+.nokia{
+    float: left;
+    font-family: sans-serif;
+    margin:20px;
+    position: relative;
+    animation: nokia 5s infinite;
+    animation-delay: 0.2;
+    top: -200px;
+    left: 0;
+}
+@keyframes nokia{
+0%{
+top: -200px;left: 0;
+
+}
+20%{
+    top: 0;left: 0;;
+}
+100%{
+
+}
+
+}
+.rate{
+    float: left;
+    font-family: sans-serif;
+    margin-left:90px;
+    font-size: 30px;
+    position: relative;
+    animation: rate 5s infinite;
+    animation-delay: 1.3s;
+    top: 0;
+    right: -200px;
+
+
+}
+@keyframes rate{
+    0%{
+        top:0;right: -200px;
+    }
+   20%{
+    top: 0;right:0;
+   }
+   100%{
+    top: 0;right:0;
+   }
+}
+.btn{
+    float: left;
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid #ccc;
+    margin-left: 130px;
+    position: relative;
+    animation: btn 5s infinite;
+    animation-delay: 2s;
+    left: 0; 
+    bottom: -200px;
+}
+.btn a{
+background-color: white;
+font-size: 25px;
+
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: #fff;
+}
+@keyframes btn{
+    0%{
+        left: 0; bottom: -200px;
+    }
+    90%{
+        left: 0;bottom:0;
+    }
+}

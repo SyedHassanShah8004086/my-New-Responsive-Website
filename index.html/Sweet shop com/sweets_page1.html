@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+header{
+    width: 100%;
+    height: 50px;
+    float:left;
+    box-sizing: border-box;
+    padding: 6px;
+}
+#brand_name{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    float: left;
+    margin-left: 24px;
+
+}
+#tag{
+    float: right;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    font-family: sans-serif;
+    margin-right: 24px;
+}
+nav{
+    width:100%;
+        height:106px;
+        background-color:blue;
+        float:left;
+        box-sizing: border-box;
+        padding: 30px;
+}
+#search{
+    width: 400px;
+    height: 40px;
+    float: left;
+    box-sizing: border-box;
+    border: none;
+    font-size: 15px;
+    margin-right: 5px;
+    border-radius: 30px;
+    text-align: center;
+    color: black;
+    
+}
+#search_btn{
+    
+    border-radius: 30px;
+    width: 100px;
+    height: 40px;
+    float:left;
+    box-sizing: border-box;
+    border: none;
+    font-size: 16px;
+    color:black;
+    
+}
+#menu-table{
+width: 600px;
+height: 40px;
+float:right;
+box-sizing: border-box;
+}
+#menu_item{
+    background-color: white;
+    width: 20%;
+    text-align: center;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+section{
+    width: 100%;
+    height: 1800px;
+    float: left;
+    box-sizing: border-box;
+    padding: 30px;
+}
+#venu{
+    float: left;
+    border: 1px solid red;
+}
+#phone{
+    float: right;
+}
+#popular-sweets-box{
+    float: left;
+    width: 720px;
+    height: 550px;
+    box-sizing: border-box;
+    background-color: black;
+    margin-top: 44px;
+    padding: 25px;
+    margin-left: -160px;
+    
+    
+}
+#popular-sweets-title{
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+#popular-sweets-images{
+    float:left;
+    width: 300px;
+    height: 200px;
+    margin: 15px;
+    text-align: center;
+    border: 5px solid tan;
+    box-sizing: border-box;
+    
+}
+#rate-list-box{
+    width: 450px;
+    height: 550px;
+    float: right;
+    box-sizing: border-box;
+    margin-top: 25px;
+    
+}
+#rate_header{
+height: 50px;
+background-color: black;
+color: white;
+text-align: center;
+font-family: century gothic;
+font-size: 25px;
+}
+#rate_content{
+    background-color: blue;
+}
+#s_name{
+    color: white;
+    font-family: century gothic;
+    font-size: 20px;
+    padding: 10px;
+    border-bottom-width:2px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+}
+#rate{
+    list-style: none;
+}
+fieldset{
+    width: 700px;
+    height: 550px;
+    float: left;
+    margin-top: 50px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+legend {
+    font-family: century gothic;
+    font-size:30px;;
+    font-weight: bold; 
+}
+#order_online{
+    font-size: 17px;
+    font-family:sans-serif
+}
+#order_input{
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    border:1px solid #ccc;
+    margin-top: 5px;
+}
+textarea{
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    border:1px solid #ccc;
+}
+#submit_btn{
+    padding: 10px;
+    font-size: 15px;
+    float:right;
+    background-color: white;
+}
+#abt_us{
+    width: 450px;
+    height: 550px;
+    float: right;
+    border: 1px solid #ccc;
+    margin-top: 65px;
+    
+    text-align: justify;
+    box-sizing: border-box;
+}
+#abt-title {
+    text-align: center;
+    font-family: century gothic;
+    font-size: 30px; 
+    box-sizing: border-box;
+}
+#abt_text{
+font-family: sans-serif;
+text-align: justify;
+padding: 20px;
+line-height: 25px;
+}
+#m_sweets{
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+#more_sweet{
+    text-align: center;
+    font-family: century gothic;
+    font-size: 30px;
+
+}
+#Sweets{
+    width: 218px;
+    height: 250px;
+    border:1px solid #a51414;
+    float: left;
+    margin-right: 67px;
+    margin-bottom: 30px;
+   
+    
+}
+#Sweets_end{
+    width: 218px;
+    height: 250px;
+    border:1px solid #a51414;
+    float: left;
+
+}
+#sweet_pic{
+    width:180px;
+    height:150px;
+    margin: 20px;
+    box-sizing: border-box;
+
+  
+}
+#buy_btn{
+ padding: 10px;   
+ border-width: 1px solid #ccc;
+ width: 100px;
+background-color: white;
+
+}
+footer{
+    width: 100%;
+    height: 250px;
+    box-sizing: border-box;
+    float: left;
+    background-color: black;
+    margin-top: 50px;
+}
+#Contact_us{
+    width: 400px;
+    height: 250px;
+    box-sizing: border-box;
+    float: left;
+   
+    padding: 10px;
+    padding-left:30px ;
+    margin-left: 80px;
+  
+    
+
+}
+#social_link{
+    width: 300px;
+    height: 250px;
+    box-sizing: border-box;
+    float: right;
+   
+    margin-right: 80px;
+    
+}
+#contact_title{
+    color: white;
+    font-family:sans-serif;
+    font-weight: normal; 
+    text-align:left;
+    
+}
+#contact_details{
+    color: white;
+    font-size: 20px;
+  font-family: sans-serif;
+  font-style: normal;
+  margin-bottom:10px ;
+  text-align: left;
+  text-align: justify;
+}
+#social_logo{
+    width: 60px;
+    padding: 10px;
+    margin-left: 10px;
+}
+#developer{
+    float: left;
+    color: white;
+    font-family: century gothic;
+    margin-top: 150px;
+    margin-left: 200px;
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <header>
+<h1 id="brand_name">Sweetshop.com</h1>
+<p id="tag">The world's largest Sweet & bakeires shop</p>
+
+    </header>
+    <nav>
+        <form action="">
+            <input type="search" name="search" placeholder="Search Items" id="search">
+                <input type="submit" id="search_btn" value="Search">
+            
+        </form>
+            <table id="menu-table" >
+                <tr>
+                    <td id="menu_item"><a href="index.html">Home      </a></td>
+                    <td id="menu_item"><a href="sweets_page1.html">Sweets    </a> </td>
+                    <td id="menu_item"><a href="#">Bakeries  </a> </td>
+                    <td id="menu_item"><a href="#abt_us">About Us  </a> </td>
+                    <td id="menu_item"><a href="#Contact_us">Contact Us</a> </td> 
+                
+                </tr>
+            </table>
+    </nav>
+    <section>
+
+
+<div id="m_sweets">
+    <h1 id="more_sweet">Our Sweets</h1>
+</div>
+ <div id="Sweets">
+<img src="sweets/1-manbhavan-son-papdi-famous-bikaneri-mithai-500g-x2-2-soan-original-imagpx9czqruwgju.webp" alt="" id="sweet_pic">
+<center>
+    <a href="index.htmlindex.html#frm_box">
+<button  id="buy_btn">Buy Now</button></a></center>
+</div>
+<div id="Sweets">
+<img src="sweets/depositphotos_114522546-stock-photo-indian-sweets-bundi-laddu-or.jpg" alt="" id="sweet_pic">
+<center>
+<a href="index.htmlindex.html#frm_box"><button  id="buy_btn">Buy Now</button></a></center>
+</div>
+<div id="Sweets">
+<img src="sweets/desktop-wallpaper-indian-sweet-balls-called-gulab-jamun-of-sweets.jpg" alt="" id="sweet_pic">
+<center>
+   <a href="index.htmlindex.html#frm_box"> <button  id="buy_btn">Buy Now</button>
+</a></center>
+</div>
+<div id="Sweets">
+<img src="sweets/download.jpeg" alt="" id="sweet_pic">
+<center>
+    <a href="index.html#frm_box"><button  id="buy_btn">Buy Now</button></a>
+</center>
+</div>
+<div id="Sweets_end">
+<img src="sweets/depositphotos_114522546-stock-photo-indian-sweets-bundi-laddu-or.jpg" alt="" id="sweet_pic">
+<center>
+    <a href="index.html#frm_box"><button  id="buy_btn">Buy Now</button></a></center>
+</div>
+
+
+<div id="Sweets">
+    <img src="sweets/1-manbhavan-son-papdi-famous-bikaneri-mithai-500g-x2-2-soan-original-imagpx9czqruwgju.webp" alt="" id="sweet_pic">
+    <center>
+        <a href="index.html#frm_box">
+    <button  id="buy_btn">Buy Now</button></a></center>
+    </div>
+    <div id="Sweets">
+    <img src="sweets/depositphotos_114522546-stock-photo-indian-sweets-bundi-laddu-or.jpg" alt="" id="sweet_pic">
+    <center>
+    <a href="index.html#frm_box"><button  id="buy_btn">Buy Now</button></a></center>
+    </div>
+    <div id="Sweets">
+    <img src="sweets/desktop-wallpaper-indian-sweet-balls-called-gulab-jamun-of-sweets.jpg" alt="" id="sweet_pic">
+    <center>
+       <a href="index.html#frm_box"> <button  id="buy_btn">Buy Now</button>
+    </a></center>
+    </div>
+    <div id="Sweets">
+    <img src="sweets/download.jpeg" alt="" id="sweet_pic">
+    <center>
+        <a href="index.html#frm_box"><button  id="buy_btn">Buy Now</button></a>
+    </center>
+    </div>
+    <div id="Sweets_end">
+    <img src="sweets/depositphotos_114522546-stock-photo-indian-sweets-bundi-laddu-or.jpg" alt="" id="sweet_pic">
+    <center>
+        <a href="index.html#frm_box"><button  id="buy_btn">Buy Now</button></a></center>
+    </div>
+
+    <div id="Sweets">
+        <img src="sweets/1-manbhavan-son-papdi-famous-bikaneri-mithai-500g-x2-2-soan-original-imagpx9czqruwgju.webp" alt="" id="sweet_pic">
+        <center>
+            <a href="index.html#frm_box">
+        <button  id="buy_btn">Buy Now</button></a></center>
+        </div>
+        <div id="Sweets">
+        <img src="sweets/depositphotos_114522546-stock-photo-indian-sweets-bundi-laddu-or.jpg" alt="" id="sweet_pic">
+        <center>
+        <a href="index.html#frm_box"><button  id="buy_btn">Buy Now</button></a></center>
+        </div>
+        <div id="Sweets">
+        <img src="sweets/desktop-wallpaper-indian-sweet-balls-called-gulab-jamun-of-sweets.jpg" alt="" id="sweet_pic">
+        <center>
+           <a href="index.html#frm_box"> <button  id="buy_btn">Buy Now</button>
+        </a></center>
+        </div>
+        <div id="Sweets">
+        <img src="sweets/download.jpeg" alt="" id="sweet_pic">
+        <center>
+            <a href="index.html#frm_box"><button  id="buy_btn">Buy Now</button></a>
+        </center>
+        </div>
+        <div id="Sweets_end">
+        <img src="sweets/depositphotos_114522546-stock-photo-indian-sweets-bundi-laddu-or.jpg" alt="" id="sweet_pic">
+        <center>
+            <a href="index.html#frm_box"><button  id="buy_btn">Buy Now</button></a></center>
+        </div>
+        
+        
+        <div id="Sweets">
+            <img src="sweets/1-manbhavan-son-papdi-famous-bikaneri-mithai-500g-x2-2-soan-original-imagpx9czqruwgju.webp" alt="" id="sweet_pic">
+            <center>
+                <a href="index.html#frm_box">
+            <button  id="buy_btn">Buy Now</button></a></center>
+            </div>
+            <div id="Sweets">
+            <img src="sweets/depositphotos_114522546-stock-photo-indian-sweets-bundi-laddu-or.jpg" alt="" id="sweet_pic">
+            <center>
+            <a href="index.html#frm_box"><button  id="buy_btn">Buy Now</button></a></center>
+            </div>
+            <div id="Sweets">
+            <img src="sweets/desktop-wallpaper-indian-sweet-balls-called-gulab-jamun-of-sweets.jpg" alt="" id="sweet_pic">
+            <center>
+               <a href="index.html#frm_box"> <button  id="buy_btn">Buy Now</button>
+            </a></center>
+            </div>
+            <div id="Sweets">
+            <img src="sweets/download.jpeg" alt="" id="sweet_pic">
+            <center>
+                <a href="index.html#frm_box"><button  id="buy_btn">Buy Now</button></a>
+            </center>
+            </div>
+            <div id="Sweets_end">
+            <img src="sweets/depositphotos_114522546-stock-photo-indian-sweets-bundi-laddu-or.jpg" alt="" id="sweet_pic">
+            <center>
+                <a href="index.html#frm_box"><button  id="buy_btn">Buy Now</button></a></center>
+            </div>
+
+            <div id="Sweets">
+                <img src="sweets/1-manbhavan-son-papdi-famous-bikaneri-mithai-500g-x2-2-soan-original-imagpx9czqruwgju.webp" alt="" id="sweet_pic">
+                <center>
+                    <a href="index.html#frm_box">
+                <button  id="buy_btn">Buy Now</button></a></center>
+                </div>
+                <div id="Sweets">
+                <img src="sweets/depositphotos_114522546-stock-photo-indian-sweets-bundi-laddu-or.jpg" alt="" id="sweet_pic">
+                <center>
+                <a href="index.html#frm_box"><button  id="buy_btn">Buy Now</button></a></center>
+                </div>
+                <div id="Sweets">
+                <img src="sweets/desktop-wallpaper-indian-sweet-balls-called-gulab-jamun-of-sweets.jpg" alt="" id="sweet_pic">
+                <center>
+                   <a href="index.html#frm_box"> <button  id="buy_btn">Buy Now</button>
+                </a></center>
+                </div>
+                <div id="Sweets">
+                <img src="sweets/download.jpeg" alt="" id="sweet_pic">
+                <center>
+                    <a href="index.html#frm_box"><button  id="buy_btn">Buy Now</button></a>
+                </center>
+                </div>
+                <div id="Sweets_end">
+                <img src="sweets/depositphotos_114522546-stock-photo-indian-sweets-bundi-laddu-or.jpg" alt="" id="sweet_pic">
+                <center>
+                    <a href="index.html#frm_box"><button  id="buy_btn">Buy Now</button></a></center>
+                </div>
+                
+                
+                <div id="Sweets">
+                    <img src="sweets/1-manbhavan-son-papdi-famous-bikaneri-mithai-500g-x2-2-soan-original-imagpx9czqruwgju.webp" alt="" id="sweet_pic">
+                    <center>
+                        <a href="index.html#frm_box">
+                    <button  id="buy_btn">Buy Now</button></a></center>
+                    </div>
+                    <div id="Sweets">
+                    <img src="sweets/depositphotos_114522546-stock-photo-indian-sweets-bundi-laddu-or.jpg" alt="" id="sweet_pic">
+                    <center>
+                    <a href="index.html#frm_box"><button  id="buy_btn">Buy Now</button></a></center>
+                    </div>
+                    <div id="Sweets">
+                    <img src="sweets/desktop-wallpaper-indian-sweet-balls-called-gulab-jamun-of-sweets.jpg" alt="" id="sweet_pic">
+                    <center>
+                       <a href="index.html#frm_box"> <button  id="buy_btn">Buy Now</button>
+                    </a></center>
+                    </div>
+                    <div id="Sweets">
+                    <img src="sweets/download.jpeg" alt="" id="sweet_pic">
+                    <center>
+                        <a href="index.html#frm_box"><button  id="buy_btn">Buy Now</button></a>
+                    </center>
+                    </div>
+                    <div id="Sweets_end">
+                    <img src="sweets/depositphotos_114522546-stock-photo-indian-sweets-bundi-laddu-or.jpg" alt="" id="sweet_pic">
+                    <center>
+                        <a href="index.html#frm_box"><button  id="buy_btn">Buy Now</button></a></center>
+                    </div>
+    </section>
+
+    <footer>
+<div id="Contact_us">
+    <h1 id="contact_title">Contact Us</h1>
+    <address id="contact_details">Website : Sweetshop.com</address>
+    <address id="contact_details">Phone No: 92+3488004086</address>
+    <address id="contact_details">Address :Skardu Main Bazar Husssani Chock</address>
+    <address>Email Id :sweetshop@gmail.com</address>
+</div>
+
+<div id="developer">Developed By : SHS </div>
+
+<div id="social_link">
+<h1 id="c">Follow Us</h1>
+<a href="92+3498016392">
+<img src="follow us/3d-icon-social-media-app_23-2150049563.avif" alt="" id="social_logo"></a>
+<a href=""><img src="follow us/images.jpeg" alt="" id="social_logo"></a>
+<a href="https://www.facebook.com/profile.php?id=100087859013025&mibextid=ZbWKwL"><img src="follow us/print-204672005.webp" alt="" id="social_logo"></a>
+
+</div>
+    </footer>
+</body>
+</html>
